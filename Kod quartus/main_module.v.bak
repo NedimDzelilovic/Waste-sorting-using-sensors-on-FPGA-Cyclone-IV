@@ -1,0 +1,24 @@
+	module main_module(clk,
+								capative,
+								inductive,
+								laser,
+								ON_belt,
+								OFF_belt,
+								in_dc,
+								en_a,
+								motor_pregrada,
+								);
+								
+	input clk;
+	input capacitive;
+	input inductive;
+	input laser;
+	input ON_belt;
+	input OFF_belt;
+	
+	
+	output[1:0] in_dc;
+	output en_a;
+	output[3:0] motor_pregrada;							
+								
+	endmodule 
